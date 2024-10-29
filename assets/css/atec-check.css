@@ -1,0 +1,24 @@
+.atec-ckbx { display: inline-block; font-size: 24px !important; white-space: nowrap; height: 20px; width: 2.4em; }
+.atec-ckbx label { cursor: pointer; position: relative; }
+.atec-ckbx label:before, .atec-ckbx label:after { border-radius: 50px; content: ""; height: 1em; position: absolute; top:0; z-index: 2; }
+
+.atec-ckbx input[type="checkbox"] { opacity: 0; width:0; margin-left: -1.2em; }
+.atec-ckbx label:before { width: 2em; left: 0.1em; transition: background 0.2s ease; background: rgba(242, 95, 92, 0.75); }
+.atec-ckbx input[value="true"] + label:before { background: rgba(112, 193, 148, 0.9); }
+.atec-ckbx label:after { background: rgb(253, 253, 253); box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3); left: 0; width: 1em; transition: all 0.2s ease; }
+.atec-ckbx input[value="true"] + label:after { left: 1.2em; }
+
+.atec-table-buttons { width: fit-content; }
+.atec-table-buttons TD DIV { background: rgba(255, 255, 255, 0.6); border: solid 1px white; border-radius: 5px; padding: 5px; }
+.atec-table-buttons TD { margin-left: 0; margin-right: 5px; padding: 5px 10px; }
+.atec-table-buttons TD:last-child { margin-right: 0; }
+.atec-table-buttons TD:first-child { padding-left: 0; }
+
+.form-table .remark { display: inline-block; font-size: 0.9em; font-weight: 400; padding-top: 5px; }
+.form-table { border:solid 1px #cbcbcb !important;}
+.form-table TBODY { display: inline-table; margin: 20px; }
+.form-table TH		{ width: auto !important; }
+.form-table TH, .form-table TD { border-bottom: dotted 1px rgba(255, 255, 255, 1); padding: 10px 10px 10px 0 !important; }
+.form-table TD { display: table-cell !important; padding-left: 50px !important; vertical-align: baseline; }
+.form-table TR:last-child TH, .form-table TR:last-child TD { border-color: transparent; }
+
