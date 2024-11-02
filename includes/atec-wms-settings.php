@@ -18,8 +18,6 @@ echo '
 		if ($nav=='Info') { require_once('atec-info.php'); new ATEC_info(__DIR__,$url,$nonce); }
 		else
 		{
-			require_once('atec-check.php');
-
 			atec_readme_button_div($url, $nonce, __('Configure your map','atec-web-map-service'));
 
 			atec_reg_inline_style('', '.form-table th, .form-table td { padding: 5px; } #gallery IMG { max-height:90px; margin:10px; }');		
@@ -62,7 +60,7 @@ echo '
 			
 			atec_reg_inline_script('wms', '
 			  window.addEventListener("message", receiveMessage, false);
-			  function receiveMessage(event) { jQuery("#lat").val(event.data.lat); jQuery("#lng").val(event.data.lng); }', true);  
+			  function receiveMessage(event) { jQuery("#ai_lat").val(event.data.lat); jQuery("#ai_lng").val(event.data.lng); }', true);  
 		}
 		
 	echo '

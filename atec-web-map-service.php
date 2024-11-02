@@ -4,9 +4,9 @@ if (!defined( 'ABSPATH' )) { exit; }
   * Plugin Name:  atec web-map-service
   * Plugin URI: https://atecmap.com/
   * Description: Include the atecmap.com web map, with customizable location icon. Fully GDPR conform.
-  * Version: 1.6.4
+  * Version: 1.6.5
   * Requires at least: 5.2
-  * Tested up to: 6.6.3
+  * Tested up to: 6.7
   * Requires PHP: 7.4
   * Author: Chris Ahrweiler
   * Author URI: https://atec-systems.com
@@ -18,7 +18,7 @@ if (!defined( 'ABSPATH' )) { exit; }
   
 if (is_admin()) 
 {
-	wp_cache_set('atec_wms_version','1.6.4');
+	wp_cache_set('atec_wms_version','1.6.5');
    	register_activation_hook( __FILE__, function() { require_once('includes/atec-wms-activation.php'); });
 	
 	if (!defined('ATEC_ADMIN_INC')) require_once('includes/atec-admin.php');

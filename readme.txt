@@ -1,15 +1,14 @@
 === atec web-map-service ===
 Contributors: DocJoJo
-Donate link: https://www.paypal.com/paypalme/atecsystems/5eur
-Tags: Web map, GDPR conform
+Tags: Incorporated the atecmap.com web map into any page, fully GDPR conform.
 Requires at least: 5.2
-Tested up to: 6.6.3
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.6.4
+Stable tag: 1.6.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Include the atecmap.com web map, with customizable location icon. Fully GDPR conform.
+The atecmap.com web map can be incorporated into any page. The map comes with a customizable location icon and is fully GDPR conform.
 
 == Description ==
 
@@ -21,7 +20,7 @@ Frontend CPU footprint: <1 ms.
 
 == 3rd party as a service ==
 
-Once, when activating the plugin, an integrity check is requested from our server (https://atecplugins.com/).
+Once, when activating the plugin, an integrity check is requested from our server (https://atecplugins.com/) – if you give your permission.
 Privacy policy: https://atecplugins.com/privacy-policy/
 
 To configure and show the map on your site, this plugin requests a map data from https://atecmap.com/.
@@ -48,6 +47,9 @@ Privacy policy: https://atecmap.com/docs_en.php
 If you want to place a marker on your map, please visit https://atecmap.com/docs_en.php and get an APIkey.
 
 == Changelog ==
+
+= 1.6.5 [2024.10.24] =
+* atec_input
 
 = 1.6.4 [2024.10.09] =
 * new translation
